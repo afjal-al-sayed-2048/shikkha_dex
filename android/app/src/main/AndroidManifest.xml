@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jumadev.shikkha_dex">
    <application
-        android:label="shikkha_dex"
+        android:label="শিক্ষাডেক্স"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

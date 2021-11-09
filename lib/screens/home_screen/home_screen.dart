@@ -12,16 +12,19 @@ class HomeScreen extends StatelessWidget {
   List<HomeScreenListItem> homeScreenListItems = [
     HomeScreenListItem(
       title: "mKj cvewjK I †evW© cix¶vi djvdj",
+      titleUnicode: "সকল পাবলিক ও বোর্ড পরীক্ষার ফলাফল",
       icon: "home_result_logo.png",
       subList: ListScreenItemsList.resultList
     ),
     HomeScreenListItem(
       title: "wk¶v gš¿Yvjq Ges Gi Awab¯’ wefvM I Awa`ßi mg~‡ni I‡qemvBU",
+      titleUnicode: "শিক্ষা মন্ত্রণালয় এবং এর অধিনস্থ বিভাগ ও অধিদপ্তর সমূহের ওয়েবসাইট",
       icon: "home_division_logo.png",
       subList: ListScreenItemsList.divisionList
     ),
     HomeScreenListItem(
       title: "evsjv‡`‡ki mKj wk¶v‡ev‡W©i I‡qemvBU mg~n",
+      titleUnicode: "বাংলাদেশের সকল শিক্ষাবোর্ডের ওয়েবসাইট সমূহ",
       icon: "home_board_logo.png",
       subList: ListScreenItemsList.boardList
     )
@@ -32,7 +35,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: mainAppBar(CONSTANTS.APP_NAME_BIJOY),
+      appBar: mainAppBar(CONSTANTS.APP_NAME),
       body: ListView.builder(
           itemCount: homeScreenListItems.length,
           itemBuilder: (itemContext, itemIndex){

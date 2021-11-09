@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shikkha_dex/components/main_appbar.dart';
 import 'package:shikkha_dex/models/home_screen_lsit_model.dart';
-import 'package:shikkha_dex/routes/main_routes.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class ListScreen extends StatelessWidget {
 
@@ -15,8 +15,11 @@ class ListScreen extends StatelessWidget {
     final parentItem = ModalRoute.of(context)!.settings.arguments as HomeScreenListItem;
     final list = parentItem.subList;
 
+    void _launchURL(String _url) async =>
+        await canLaunch(_url) ? await launch(_url) : throw 'Could not launch $_url';
+
     return Scaffold(
-      appBar: mainAppBar(parentItem.title),
+      appBar: mainAppBar(parentItem.titleUnicode),
       body: ListView.builder(
         itemCount: list.length,
         itemBuilder: (itemContext, itemIndex){
@@ -28,20 +31,24 @@ class ListScreen extends StatelessWidget {
             child: Card(
               child: ListTile(
                 onTap: (){
-                  Navigator.pushNamed(
+                  /*Navigator.pushNamed(
                       context,
                       MainRoutes.WEBVIEW_SCREEN,
                       arguments: list[itemIndex]
-                  );
+                  );*/
+                  launch(list[itemIndex].url);
                 },
-                title: Text(
-                    list[itemIndex].title,
-                  style: TextStyle(
-                    fontFamily: "SutonnyMJ",
-                    fontWeight: FontWeight.bold,
-                    fontSize: 24.0,
-                    height: 1.1
-                  )
+                title: Padding(
+                  padding: const EdgeInsets.only(bottom: 24.0),
+                  child: Text(
+                      list[itemIndex].title,
+                    style: TextStyle(
+                      fontFamily: "SutonnyMJ",
+                      fontWeight: FontWeight.bold,
+                      fontSize: 24.0,
+                      height: 1.1
+                    )
+                  ),
                 ),
               ),
             ),

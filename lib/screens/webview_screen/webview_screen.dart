@@ -12,7 +12,6 @@ class WebViewScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: mainAppBar("title"),
-      body: Text("${parentItem.title} \n ${url}"),
     );
 
   }

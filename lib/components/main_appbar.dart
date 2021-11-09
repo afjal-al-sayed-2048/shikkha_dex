@@ -5,9 +5,7 @@ AppBar mainAppBar(String title){
     title: Text(
         title,
       style: TextStyle(
-        fontFamily: "SutonnyMJ",
         fontWeight: FontWeight.bold,
-        fontSize: 24.0,
       ),
       maxLines: 1,
     ),

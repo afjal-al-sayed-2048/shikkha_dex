@@ -3,7 +3,7 @@ import 'package:shikkha_dex/models/list_screen_sub_list_model.dart';
 class ListScreenItemsList{
 
   static List<ListScreenSubListItem> resultList = [
-    ListScreenSubListItem(title: "cÖv_wgK wk¶v mgvcbx cix¶vi djvdj", url: "http://180.211.137.51/"),
+    ListScreenSubListItem(title: "cÖv_wgK/Be‡Z`vqx wk¶v mgvcbx cix¶vi djvdj", url: "http://180.211.137.51/"),
     ListScreenSubListItem(title: "†R.Gm.wm. / †R.wW.wm. cix¶vi djvdj", url: "http://www.educationboardresults.gov.bd/"),
     ListScreenSubListItem(title: "Gm.Gm.wm. / `vwLj / Gm.Gm.wm. (‡fv‡Kkbvj) cix¶vi djvdj", url: "http://www.educationboardresults.gov.bd/"),
     ListScreenSubListItem(title: "GBP.Gm.wm. / Avwjg / GBP.Gm.wm. (‡fv‡Kkbvj) / GBP.Gm.wm. (we.Gg) cix¶vi djvdj", url: "http://www.educationboardresults.gov.bd/"),

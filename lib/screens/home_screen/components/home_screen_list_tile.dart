@@ -10,55 +10,52 @@ class HomeScreenListTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AspectRatio(
-      aspectRatio: 2.5,
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 6.0),
-        child: Card(
-          child: InkWell(
-            onTap: (){
-              Navigator.pushNamed(
-                context,
-                MainRoutes.LIST_SCREEN,
-                arguments: item
-              );
-            },
-            child: Container(
-              color: Colors.transparent,
-              child: Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Flexible(
-                        flex: 2,
-                        child: AspectRatio(
-                            aspectRatio: 1,
-                            child: Padding(
-                              padding: const EdgeInsets.all(8.0),
-                              child: Image.asset("/images/${item.icon}"),
-                            )
-                        )
-                    ),
-                    Flexible(
-                        flex: 3,
-                        fit: FlexFit.tight,
-                        child: Padding(
-                          padding: const EdgeInsets.only(bottom: 0.0),
-                          child: Text(
-                            item.title,
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontFamily: "SutonnyMJ",
-                              fontSize: 28.0,
-                              height: 1.1,
-                            ),
-                            textAlign: TextAlign.center,
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 6.0),
+      child: Card(
+        child: InkWell(
+          onTap: (){
+            Navigator.pushNamed(
+              context,
+              MainRoutes.LIST_SCREEN,
+              arguments: item
+            );
+          },
+          child: Container(
+            color: Colors.transparent,
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Flexible(
+                      flex: 2,
+                      child: AspectRatio(
+                          aspectRatio: 1,
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Image.asset("assets/images/${item.icon}"),
+                          )
+                      )
+                  ),
+                  Flexible(
+                      flex: 3,
+                      fit: FlexFit.tight,
+                      child: Padding(
+                        padding: const EdgeInsets.only(bottom: 24.0),
+                        child: Text(
+                          item.title,
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontFamily: "SutonnyMJ",
+                            fontSize: 24.0,
+                            height: 1.1,
                           ),
-                        )
-                    )
-                  ],
-                ),
+                          textAlign: TextAlign.center,
+                        ),
+                      )
+                  )
+                ],
               ),
             ),
           ),
