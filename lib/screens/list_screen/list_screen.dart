@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shikkha_dex/components/main_appbar.dart';
 import 'package:shikkha_dex/models/home_screen_lsit_model.dart';
+import 'package:shikkha_dex/routes/main_routes.dart';
 
 class ListScreen extends StatelessWidget {
 
@@ -26,6 +27,13 @@ class ListScreen extends StatelessWidget {
             padding: padding,
             child: Card(
               child: ListTile(
+                onTap: (){
+                  Navigator.pushNamed(
+                      context,
+                      MainRoutes.WEBVIEW_SCREEN,
+                      arguments: list[itemIndex]
+                  );
+                },
                 title: Text(
                     list[itemIndex].title,
                   style: TextStyle(
