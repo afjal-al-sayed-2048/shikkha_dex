@@ -1,16 +1,38 @@
-# shikkha_dex
+# ShikkhaDex (শিক্ষাডেক্স)
 
-A new Flutter project.
+Collection of all government educational websites, resouces & board exam results.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+ - Find result of PSC, JSC, SSC, HSC, Diploma and other board exams in one place
+ - Explorer websites of all education departments and divisions under Education Ministry
+ - Read & download all curricular books from NCTB's website
+ - Websites of all education board are listed here as well as Madrasha & Technical Board
+ - Clean & Modern User Interface
+ - Open your desired website just in one click
+ - Items are well organized & categorized
+ - Full Bangla UI & it's easy to use
+ - and a bunch of usefull features
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<img src="screenshots/screenshot_1.png" width="256"> <img src="screenshots/screenshot_2.png" width="256"> <img src="screenshots/screenshot_3.png" width="256"> <img src="screenshots/screenshot_4.png" width="256">
+<!-- ![hello](screenshots/screenshot_1.png)
+![hello](screenshots/screenshot_2.png)
+![hello](screenshots/screenshot_3.png) -->
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Try out ShikkhaDex?
+
+Android: [Download ShikkhaDex.apk](https://github.com/afjal-al-sayed-2048/QRex_QR_Code_Generator/raw/master/build_apk/QRex_QR_Code_Generator.apk)
+
+## Developer
+
+Hi there! I am Afjal Al Sayed. I create Android apps for solving problems and to make things easier. Try out my new app ShikkhaDex (শিক্ষাডেক্স). If you have any query related to it don't hasitate to [e-mail me](mailto:sayed01851@gmail.com). And also check out my other stuffs [here](https://github.com/afjal-al-sayed-2048).
+
+## Copyright
+
+All rights reserved by Afjal Al Sayed. Copyright &copy; 2022.
+<br/><small><i>This app may contain other brand’s logos or titles. These are the properties of their respective owners. QRex neither has any relation to these brands nor is associated with them. These assets are used for identification purposes only.</i></small>
+
+### Note
+ <small>ShikkhaDex contains links of external websites inside it. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</small>
