@@ -1,6 +1,6 @@
 # ShikkhaDex (শিক্ষাডেক্স)
 
-Collection of all government educational websites, resouces & board exam results.
+Collection of all government educational websites, resources & board exam results.
 
 ## Features
 
@@ -23,7 +23,7 @@ Collection of all government educational websites, resouces & board exam results
 
 ## Try out ShikkhaDex?
 
-Android: [Download ShikkhaDex.apk](https://github.com/afjal-al-sayed-2048/QRex_QR_Code_Generator/raw/master/build_apk/QRex_QR_Code_Generator.apk)
+Android: [Download ShikkhaDex.apk](https://github.com/afjal-al-sayed-2048/shikkha_dex/raw/master/release/shikkha_dex.apk)
 
 ## Developer
 
@@ -32,7 +32,7 @@ Hi there! I am Afjal Al Sayed. I create Android apps for solving problems and to
 ## Copyright
 
 All rights reserved by Afjal Al Sayed. Copyright &copy; 2022.
-<br/><small><i>This app may contain other brand’s logos or titles. These are the properties of their respective owners. QRex neither has any relation to these brands nor is associated with them. These assets are used for identification purposes only.</i></small>
+<br/><small><i>This app may contain other brand’s logos or titles. These are the properties of their respective owners. ShikkhaDex neither has any relation to these brands nor is associated with them. These assets are used for identification purposes only.</i></small>
 
 ### Note
  <small>ShikkhaDex contains links of external websites inside it. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</small>
