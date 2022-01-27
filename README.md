@@ -23,7 +23,7 @@ Collection of all government educational websites, resources & board exam result
 
 ## Try out ShikkhaDex?
 
-Android: [Download ShikkhaDex.apk](https://github.com/afjal-al-sayed-2048/shikkha_dex/raw/master/release/shikkha_dex.apk)
+Android: [Download ShikkhaDex.apk](https://github.com/afjal-al-sayed/shikkha_dex/raw/master/release/shikkha_dex.apk)
 
 ## Developer
 
